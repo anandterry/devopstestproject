@@ -18,4 +18,20 @@
   <build>
     <finalName>WebApplication</finalName>
   </build>
+  <repositories>
+  <repository>
+  <id>dollarGroupRepo</id>
+  <url>http://162.222.177.82:8081/nexus/content/groups/dollarGroupRepo/</url>
+  </repository>
+  </repositories>
+  <distributionManagement>
+  <snapshotRepository>
+  <id>dollarsnapRepo</id>
+  <url>http://162.222.177.82:8081/nexus/content/repositories/dollarsnapRepo/</url>
+  </snapshotRepository>
+  <repository>                                                    
+  <id>dollarRelRepo</id>
+  <url>http://162.222.177.82:8081/nexus/content/repositories/dollarRelRepo/</url>
+  </repository>
+  </distributionManagement>
 </project>
